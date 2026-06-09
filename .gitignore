@@ -216,3 +216,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ROS2 / colcon runtime outputs
+build/
+install/
+log/
+logs/
+**/logs/
+*.log
+
+# Episode heavy/runtime outputs
+**/data/raw/**/rosbag/
+**/data/raw/**/logs/
+**/data/raw/**/screenshots/
+
+# Python cache
+__pycache__/
+*.pyc
